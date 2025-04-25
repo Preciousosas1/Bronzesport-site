@@ -65,6 +65,57 @@ h3 {
     font-size: 24px
 }
 
+
+.form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .flex-row {
+    display: flex;
+    gap: 15px;
+  }
+
+  .flex-row .form-group {
+    flex: 1;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color:purple;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: rgba(126, 49, 126, 0.473);
+    color: purple;
+  }
+
+  @media (max-width: 600px) {
+    .flex-row {
+      flex-direction: column;
+    }
+  }
+
 @media only screen and (max-width: 767px) {
     h3 {
         font-size: 20px
